@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <title>Alan Turing</title>
+    </head>
+    <body>
+        <div class="intro">
+            <div id="title"> Alan Turing </div>
+            <p id="quote">
+                "Sometimes it is the people no one imagines anything of who do the things that no one can"
+            </p>
+        </div>
+
+        <div id="main">
+            <button id="alanButton" onclick = showAlan()> Who is he? </button>
+                <div id="whoIsAlan">
+                    Alan Turing is a British mathematician and logician who made 
+                    many contributions to cryptanalysis, logic, philosophy, mathematics, 
+                    and mathematical biology 
+                    (later named computer science, cognitive science, artificial intelligence, and  artificiallife.)
+                </div> 
+            <div id="img-div">
+                <img class="photos" src="Alan_Turing_Aged_16.jpg">
+                <img class="photos" src="Alan-Turing.jpeg" alt="Alan Turing 1930">
+                <img class="photos" src="Alan-Turing_in1951.jpeg">
+            </div>   
+            <div id="img-caption"> 
+                The left photo is Alan at age 16, 
+                the center photo is Alan in the 1930s, 
+                and the last photo is Alan at age 39. 
+            </div>
+        </div>
+
+        <div id="tribute-info">
+            <p id="timeline-title"> Timeline of Alan Turing: </p>
+            <ul id="timelineList"></ul>
+        </div>
+
+        <button id="contributionButton" onclick=showContribution()> What did he contribute?</button>
+            <div id="whatContribution">
+                Alan has made a drastic change to history. If it wasn't for Alan, there is a possibility    inwhere we would not have defeated the Germans in World War II. The Nazi Germans used anEnigma     machine, a cipher device for a military command to encode strategic messages beforeand during   World War II. Alan was able to decrypt the Enigma code. With the decryption, theAllies were   able to defeat the Nazi Germans.
+            </div>
+
+        <footer> 
+            <span id="source">Sources</span>
+                <a href="https://www.nytimes.com/2019/06/05/obituaries/alan-turing-overlooked.html"
+                   class= "tribute-link" target="_blank"> New York Times</a>
+                <a href="https://en.wikipedia.org/wiki/Alan_Turing" 
+                   class="tribute-link" target="_blank"> Wikipedia</a>
+                <a href="https://www.britannica.com/biography/Alan-Turing" 
+                   class="tribute-link" target="_blank"> Britannica</a>
+
+                <a href="https://www.imdb.com/title/tt2084970/"
+                class="tribute-link movie" target="_blank"> 
+                "The Imitation Game" </a>
+            <span class="movie"> The Imitation Game is a film that based on Alan Turing starring Benedict     Cumberbatch.</span>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
